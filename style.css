@@ -1,0 +1,88 @@
+body {
+  font-family: 'Share Tech', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+nav {
+  width: 900px;
+  height:100vh;
+  margin: 0 auto;
+  background-color: #acadb1;
+  color: #ffffff;
+  position: relative;
+}
+
+.logo {
+  float: left;
+  display: inline;
+}
+
+.logo div {
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 100px;
+}
+
+.menu-list {
+  list-style-type: none;
+  position: absolute;
+  right: 0;
+}
+
+.menu-list li {
+  float: left;
+  padding: 5px 20px;
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+
+.menu-list #btn-dowload {
+  border: 1px solid #ffffff;
+  border-radius: 25px;
+  padding: 5px 30px;
+}
+
+.intro {
+  position: absolute;
+  left: 50%;
+  margin-left: -200px;
+  top: 50%;
+  margin-top: -100px;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2em;
+}
+
+.intro-about {
+  font-size: 1em;
+  text-align: center;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.nav-btn {
+  text-transform: uppercase;
+  font-size: 0.6em;
+  color: #ffffff;
+  border: solid 1px #ffffff;
+  background-color: transparent;
+  border-radius: 25px;
+  padding: 10px 50px;
+  position: absolute;
+  left: 50%;
+  margin-left: -100px;
+  margin-top: 50px;
+}
+
+hr {
+  width: 90px;
+  margin: 0;
+  padding: 0;
+}
